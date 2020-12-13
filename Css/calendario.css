@@ -1,0 +1,110 @@
+body{
+    background-color: cyan
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1{
+    color: rgb(20, 29, 46);
+    text-decoration: underline;
+    text-align: center;
+}
+
+table,td,th{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    background-color: darkgray
+    margin: auto;
+}
+
+table td {
+    text-align: center;
+}
+
+th {
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+}
+
+.cm04{
+    font-weight: bold;
+    font-family: Georgia;
+    text-decoration: underline;
+}
+
+.m04{
+    background-color: greenyellow;
+}
+
+.cm06{
+    font-weight: bold;
+    font-family: Verdana;
+    text-decoration: underline;
+}
+
+.m06{
+    background-color: rgb(255, 35, 35);
+}
+
+.cm07{
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.m07{
+    background-color: slateblue;
+}
+
+.cm08{
+    font-weight: bold;
+    font-family: Times New Roman;
+    text-decoration: underline;
+}
+
+.m08{
+    background-color:  rgb(54, 72, 177);
+}
+
+#cm10{
+    font-weight: bold;
+    font-family: Haettenschweiler;
+    text-decoration: underline;
+}
+
+.m10{
+    background-color: magenta;
+}
+
+#Pati{
+    font-weight: bold;
+    text-align: center;
+}
+
+.clasehora{
+    background-color: lightslategray;
+}
+
+.cpati{
+    background-color: rebeccapurple;
+}
+
+#Tut{
+    font-weight: bold;
+    font-family: Arial Narrow Bold;
+    text-decoration: underline;
+}
+
+.tut2{
+    background-color: rgb(197, 174, 43);
+}
+
+img{
+    display: block;
+    margin: auto;
+}

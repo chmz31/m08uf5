@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formulario</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+        <link rel="stylesheet" href="../Css/formulario.css">
+    </head>  
+    <body> 
+        
+        <fieldset>     
+            <fieldset>
+            <legend><b><u>Información Basica</u></b></legend>
+            
+                <label for="id_text">Nombre</label>
+                <br/> 
+                <input type="text" id="text" name="n_text" value="" placeholder="Escribe tu nombre aquí"/> 
+                <br/>
+                <br/>
+            
+                <label for="id_number">Altura en centimetros</label>
+                <br/>
+                <input type="number" id="id_number" name="n_number" value="157"/>
+                <br/>
+                <br/>
+                
+                <label for="id_email">Tu correo</label>
+                <br/>
+                <input type="email" id="id_email" name="n_email" value="" placeholder="tucorreo@tucorreo.com"/>  
+                <br/>
+                <br/>
+                
+                <label for="id_date">Fecha de nacimiento</label>
+                <br/> 
+                <input type="date" id="id_date" name="n_date" value="2001-12-31"/>
+            </fieldset>  
+            <br/>
+            <fieldset>
+            <legend><b><u>Nacionalidad</u></b></legend>   
+                <br/>    
+                <input type="radio" id="id_radio1" name="n_radio" value="Española"/>Española
+                <input type="radio" id="id_radio2" name="n_radio" value="Comunitario(UE)" checked/>Comunitario(UE)
+                <input type="radio" id="id_radio3" name="n_radio" value="No Comunitario"/>No Comunitario  
+            </fieldset>
+            <br/>
+            <fieldset>
+            <legend><b><u>Estudios</u></b></legend>
+                <br/>
+                <select id="id_select" name="n_select">
+                    <option value="default" selected>GM</option>
+                    <option value="a">GS</option>
+                    <option value="b">ESO</option>
+                    <option value="c">Ninguno</option>  
+                </select>  
+            </fieldset> 
+            <br/>
+            <fieldset>
+            <legend><b><u>Idiomas</u></b></legend>
+                <br/>
+                <input type="checkbox" id="id_checkbox1" name="n_checkbox[]" value="a" checked/>Catalán
+                <input type="checkbox" id="id_checkbox2" name="n_checkbox[]" value="b" checked/>Castellano
+                <input type="checkbox" id="id_checkbox3" name="n_checkbox[]" value="c" checked/>Inglés
+                <input type="checkbox" id="id_checkbox4" name="n_checkbox[]" value="d"/>Chino
+            </fieldset> 
+            <br/>
+            <fieldset>
+            <input type="submit" id="id_submit" name="n_submit" value="Enviar"/>
+            <input type="reset"  id="id_reset"  name="n_reset"  value="Cancelar"/>
+            </fieldset>
+
+        </fieldset>
+    </body>
+</html>      
