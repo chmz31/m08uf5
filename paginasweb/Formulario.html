@@ -9,7 +9,7 @@
     <body> 
         
         <fieldset>     
-            <fieldset>
+            <fieldset id="info_basica">
             <legend><b><u>Información Basica</u></b></legend>
             
                 <label for="id_text">Nombre</label>
@@ -35,7 +35,7 @@
                 <input type="date" id="id_date" name="n_date" value="2001-12-31"/>
             </fieldset>  
             <br/>
-            <fieldset>
+            <fieldset id="nacionalidad">
             <legend><b><u>Nacionalidad</u></b></legend>   
                 <br/>    
                 <input type="radio" id="id_radio1" name="n_radio" value="Española"/>Española
@@ -43,7 +43,7 @@
                 <input type="radio" id="id_radio3" name="n_radio" value="No Comunitario"/>No Comunitario  
             </fieldset>
             <br/>
-            <fieldset>
+            <fieldset id="estudios">
             <legend><b><u>Estudios</u></b></legend>
                 <br/>
                 <select id="id_select" name="n_select">
@@ -54,7 +54,7 @@
                 </select>  
             </fieldset> 
             <br/>
-            <fieldset>
+            <fieldset id="idiomas">
             <legend><b><u>Idiomas</u></b></legend>
                 <br/>
                 <input type="checkbox" id="id_checkbox1" name="n_checkbox[]" value="a" checked/>Catalán
@@ -63,7 +63,7 @@
                 <input type="checkbox" id="id_checkbox4" name="n_checkbox[]" value="d"/>Chino
             </fieldset> 
             <br/>
-            <fieldset>
+            <fieldset id="botones">
             <input type="submit" id="id_submit" name="n_submit" value="Enviar"/>
             <input type="reset"  id="id_reset"  name="n_reset"  value="Cancelar"/>
             </fieldset>

@@ -1,0 +1,21 @@
+#info_basica{ 
+    background-color: salmon;
+} 
+
+#nacionalidad{
+    background-color: lightgreen 
+} 
+
+#estudios{
+background-color: lightblue;
+} 
+
+#botones{
+    background-color: lightgray; 
+} 
+
+legend{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
