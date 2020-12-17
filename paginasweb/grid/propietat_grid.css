@@ -1,0 +1,43 @@
+#primerdiv {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  } 
+
+#goku1 {
+    grid-column-start: 3;
+    } 
+
+#div2{
+
+display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }  
+
+#termina{
+
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+} 
+#div3{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;    
+} 
+
+#termina2{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+} 
+
+#div4{ 
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+} 
+
+#termina3{
+    grid-column: 4 / 6;
+}

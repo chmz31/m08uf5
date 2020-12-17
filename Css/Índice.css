@@ -1,0 +1,105 @@
+body{
+    width: 100%;
+    height: 100%;
+} 
+
+#cabecera{
+    background-color: rgb(170, 10, 50); 
+    width: 100%; 
+    height: 20%;  
+    position: absolute;
+    
+} 
+
+#pie {  
+    width: 100%; 
+    height: 10%; 
+    position: absolute; 
+    background-color: darkgoldenrod;
+    top: 90%;
+} 
+
+#izquierda{ 
+    
+    background-color: aquamarine; 
+    width: 15%;
+    height: 70%;   
+    position: absolute;
+    top: 20%;
+} 
+
+#derecha{ 
+    position: absolute; 
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/181/240/non_2x/vaporwave-background-vector.jpg); 
+    width: 15%;
+    height: 70%; 
+    top: 20%; 
+    left: 85%;
+ }  
+
+#central{ 
+   width: 70%; 
+   height: 70%;
+   background-color: gray; 
+   left: 15%;
+   top: 20%;
+   position: absolute;
+} 
+
+img{ 
+    width: 100px;
+    height: 100px;  
+    top: 10px;   
+    float: left;
+}  
+
+
+h1{
+    left: 150px; 
+    font-family: 'Franklin Gothic Medium'; 
+    position: absolute;
+}  
+
+#e1,#e2,#e3,#e5,#e6,#e7,#e8,#e9,#e10,#e11,#e12{
+    border: solid black; 
+    padding: 10px;
+    width: 70%; 
+    background-color: steelblue; 
+} 
+
+#e1:hover{ 
+background: rgb(170, 10, 50);
+} 
+#e2:hover{ 
+background: rgb(170, 10, 50);
+} 
+#e3:hover{ 
+background: rgb(170, 10, 50);
+} 
+#e5:hover{ 
+background: rgb(170, 10, 50);
+} 
+#e6:hover{ 
+    background: rgb(170, 10, 50);
+} 
+#e7:hover{ 
+    background: rgb(170, 10, 50);
+}
+#e6:hover{ 
+    background: rgb(170, 10, 50);
+}
+#e8:hover{ 
+    background: rgb(170, 10, 50);
+}
+#e9:hover{ 
+    background: rgb(170, 10, 50);
+}
+#e10:hover{ 
+    background: rgb(170, 10, 50);
+}
+#e11:hover{ 
+    background: rgb(170, 10, 50);
+}
+#e12:hover{ 
+    background: rgb(170, 10, 50);
+}
