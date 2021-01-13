@@ -1,0 +1,55 @@
+/* part 5*/
+
+#tweet, #my_pictures, #my_friends
+{
+
+}
+
+#tweet
+{
+
+}
+
+#my_pictures
+{
+
+}
+
+#my_friends
+{
+
+}
+
+#my_pictures img
+{
+
+}
+
+
+#my_friends ul
+{
+
+}
+
+#my_friends a
+
+{
+
+}
+
+
+footer
+{
+
+}
+
+
+footer p, footer ul
+{
+
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}

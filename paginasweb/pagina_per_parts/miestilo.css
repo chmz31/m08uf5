@@ -1,0 +1,232 @@
+
+#contain_wrapper
+{
+    width: 900px;
+    margin: auto;
+}
+
+header
+{
+	background-color: red;
+}
+
+header img
+{ 
+    width: 25%; 
+    height: 50px;
+}
+
+#tituloprincipal 
+{ 
+    display: inline-block; 
+    background-color:darkkhaki; 
+
+}
+
+header h1
+{ 
+    font-family:serif; font-size: 2.5em; font-weight: normal;
+}
+
+header h2
+{ 
+    font-family: Verdana, serif; font-size: 1.1em; 
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+header img, header h1
+{ 
+    display: inline-block; margin-bottom: 0px;
+} 
+nav
+{
+display: inline-block; width: 623px; 
+text-align: right; 
+background-color: orange;
+}
+
+nav ul
+{
+list-style-type: none;
+}
+
+nav li
+{
+display:inline-block; margin-right: 15px;
+}
+
+nav a
+{
+font-size: 1.3em; color: #181818; padding-bottom: 3px; 
+text-decoration: none;
+}
+
+nav a:hover
+{
+color: #760001; 
+border-bottom: 3px solid#760001; 
+border-top: 3px solid#760001;
+}
+
+#banner_image
+{
+background-image: url("imatges/sanfrancisco.jpg");
+height: 200px;
+position: relative; 
+width: 100%; 
+border-radius: 5px; 
+margin-bottom: 25px; 
+box-shadow: 0px 4px 4px orange;
+color: purple;
+}
+
+#banner_description
+{
+position: absolute;
+border-radius: 0px 0px 5px 5px; 
+width: 99.5%; 
+height: 33px; 
+padding-top: 15px; 
+padding-left: 4px; 
+color: white;
+font-size: 0.8em;
+background-color: rgba(24, 24, 24, 0); 
+bottom: 1px;
+} 
+
+.red_button
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('imatges/red_background.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+} 
+
+article, aside
+{
+text-align: justify; 
+display: inline-block; 
+}
+
+article
+{
+width: 625px; 
+margin-right: 8px;
+}
+
+.ico_categorie
+{
+} 
+
+
+article p
+{
+    font-size: 00.8em; 
+}
+
+
+aside
+{
+    width: 235px;
+    background-color: gray;
+    box-shadow: 0px 2px 5px gray; 
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+aside h1
+{
+display: inline-block
+}
+
+#arrow
+{
+top: 25px;
+left: 250px;
+}
+
+#zozor_picture
+{
+border: 1px solid #181818;
+}
+
+aside img /*separo les imatges entre si*/
+{ 
+    margin-right: 5px;
+} 
+
+#tweet, #my_pictures, #my_friends
+{
+vertical-align: top; 
+display: inline-block;
+}
+
+#tweet
+{
+width: 28%;
+}
+
+#my_pictures
+{
+width: 35%;
+}
+
+#my_friends
+{
+width: 31%;
+}
+
+#my_pictures img
+{
+border: 1px solid black; 
+margin-right: 2px;
+}
+
+
+#my_friends ul
+{
+vertical-align: top;
+display: inline-block; 
+margin-top: 0px;
+width: 48%; 
+padding-right: 2px; 
+list-style-image: url("imatges/external_link.png");
+}
+
+#my_friends a
+
+{
+text-decoration: none;
+color: #760001;
+}
+
+
+footer
+{
+background: url("imatges/top.png") no-repeat, top center, url("imatges/line.png") repeat-x top,
+url("imatges/shadow.png") repeat-x top; 
+padding-top: 25px;
+}
+
+
+footer p, footer ul
+{
+font-size: 00.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}

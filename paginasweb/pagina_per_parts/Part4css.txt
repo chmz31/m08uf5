@@ -1,0 +1,42 @@
+/* part 4*/
+
+article, aside
+{
+
+}
+
+article
+{
+}
+
+.ico_categorie
+{
+} 
+
+
+article p
+{
+}
+
+
+aside
+{
+}
+
+aside h1
+{
+
+}
+
+#arrow
+{
+}
+
+#zozor_picture
+{
+
+}
+
+aside img /*separo les imatges entre si*/
+{
+}

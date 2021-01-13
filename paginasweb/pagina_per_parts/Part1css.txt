@@ -1,0 +1,29 @@
+/*1era part */
+#contain_wrapper
+{
+}
+
+header
+{
+	
+}
+
+header img
+{
+}
+
+#tituloprincipal
+{
+}
+
+header h1
+{
+}
+
+header h2
+{
+}
+
+header img, header h1
+{
+}

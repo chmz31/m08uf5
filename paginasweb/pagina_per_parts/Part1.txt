@@ -1,0 +1,12 @@
+<div id="contain_wrapper">
+    <header>
+    	<div id="tituloprincipal">
+                    <img class="desplazada" src="imatges/bear.jpg" alt="Oso" />
+                    <h1>Mi web</h1>
+                    <h2>Explicare lo que me de la gana</h2>
+        </div>
+		
+    </header>
+
+<img class="desplazada2" src="imatges/monkey.jpg" alt="mono" />
+</div>
