@@ -1,0 +1,124 @@
+#Roundedcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+    position: relative; 
+    
+  }  
+  #Roundedcorners2 {
+    border-radius: 15px 50px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+    position: absolute;  
+    left: 20%; 
+    top: 0%
+  } 
+  #Roundedcorners3 {
+    border-radius: 25% 25% 25% 25%;
+    background: saddlebrown;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+    position: absolute; 
+    left: 40%; 
+    top: 0%; 
+ }
+
+  #Roundedcorners4 {
+    border-radius: 15px 50px;
+    background: saddlebrown;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+    left: 60%; 
+    position: absolute; 
+    top: 0%; 
+  }  
+
+   #p1{ 
+   background-color: rgba(0, 0, 255, 0.2);
+    }
+    
+   #p2{ 
+    background-color: rgba(0, 0, 255, 0.4);
+    } 
+
+   #p3{ 
+    background-color: rgba(0, 0, 255, 0.6);
+    }
+    
+    #p4{ 
+    background-color: rgba(0, 0, 255, 0.8);
+    }  
+
+    #p5{ 
+        background-color: hsl(0, 100%, 30%)    
+    } 
+    
+    #p6{ 
+        background-color: hsl(0, 100%, 50%)    
+    }
+    
+    #p7{ 
+        background-color: hsl(0, 100%, 70%)                 
+    } 
+
+    #p8{ 
+        background-color: hsl(0, 100%, 90%)
+    }
+
+  #Ejercicio1{ 
+      width: 100%; 
+      position: relative; 
+  } 
+  #Ejercicio2{ 
+      width: 400px; 
+      position: relative; 
+      top: 30%
+  } 
+
+  #grad1{
+    background-image: linear-gradient(red, yellow); 
+    height: 200px; 
+  
+    
+  }
+   
+  #grad2{ 
+    height: 200px;
+    background-image: linear-gradient(to right,blue ,purple);  
+  }
+
+  #ej4_1{
+  text-shadow: 2px 2px; 
+  } 
+
+  #ej4_2{ 
+  text-shadow: 2px 2px 5px red     
+  } 
+
+  #caja1{ 
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: yellow;
+    box-shadow: 10px 10px; 
+    position: absolute; 
+    bottom: 5%; 
+    left: 20%;
+  } 
+
+  #caja2{ 
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px grey; 
+    position: absolute;  
+    left: 40%;
+    bottom: 5%;
+  }
