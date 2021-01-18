@@ -121,4 +121,8 @@
     position: absolute;  
     left: 40%;
     bottom: 5%;
+  } 
+
+  #transfor1 {
+    transform: translate(50px, 100px);
   }
